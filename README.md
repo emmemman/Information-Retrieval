@@ -9,7 +9,7 @@
 
 
 Πεδια--
-Τα πεδια, τα οποια θα εχουν γινει tokens με την χρηση του Analyzer, ειναι τα : id, type, title, director, cast, country, date_added, release_year, rating, duration, listed_in, description.
+Τα πεδια, τα οποια θα γινουν tokens με την χρηση του Analyzer, ειναι τα : id, type, title, director, cast, country, date_added, release_year, rating, duration, listed_in, description.
 
 
 Analyzer --
@@ -17,11 +17,14 @@ Analyzer --
 
 
 Κατασκευη ευρετηριου --
-Με την χρηση του IndexWriter θα δημιουργησουμε ενα νεο ευρετηριο στο οποιο θα περασουμε ολα τα documents
+Με την χρηση του IndexWriter θα δημιουργησουμε ενα νεο ευρετηριο στο οποιο θα προσθεσουμε ολα τα documents.
 
 
 
 Αναζητηση--
+Η αναζητηση της ερωτησης του χρηστη υλοποιειται με την χρηση του Query, δηλαδη τα αποτελεσματα του QueryParser, στο οποιο παει ο IndexSearcher και επιστρεφει τα κορυφαια αποτελεσματα (TopDocs).
 
+
+Ο αριθμος των αποτελεσματων που εμγφανιζονται θα ειναι 10
 
 Παρουσιαση Αποτελσματων--
