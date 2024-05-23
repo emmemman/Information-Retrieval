@@ -8,7 +8,7 @@
 
 H εκτέλεση του scrapper γίνεται με την εντολή python3 scrapper.py στο directory όπου βρίσκεται το python αρχείο.<br>
 
-Ο αριθμός των τραγουδιών που θα διαβαστούν ορίζεται από την σταθερά Ν του αρχείου. <br>
+Ο αριθμός των εγγράφων που θα διαβαστούν ορίζεται από την σταθερά Ν του αρχείου. <br>
 
 Στο σημείο αυτό να σημειωθεί ότι το dataset συλλέχθηκε από την data science κοινότητα Kaggle και μπορείτε να το βρείτε στον ακόλουθο σύνδεσμο [link <br>](https://www.kaggle.com/datasets/rowhitswami/nips-papers-1987-2019-updated/data?select=papers.csv)
 
